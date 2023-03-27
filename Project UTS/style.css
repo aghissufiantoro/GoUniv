@@ -1,0 +1,67 @@
+
+
+header {
+    background-color: blue;
+    padding-top: 0%;
+    width: auto;
+    height: 3cm;
+    align-content: center;
+}
+
+nav a {
+    color: black;
+}
+
+
+.navbar {
+    justify-items: flex-end;
+}
+
+section div nav {
+    flex-wrap: wrap;
+}
+
+section div nav a {
+    font-size: 19px;
+    padding: 12px;
+    padding-top: 4px;
+}
+
+section div nav a:hover {
+    background-color: darkblue;
+    color: white;
+    padding: 9px;
+    opacity: 0.5;
+
+}
+
+.backgroundfoto {
+    opacity: 55%;
+    width: fit-content;
+    float: inherit;
+    padding: 45px;
+}
+
+.flex-container {
+    display: flex;
+    padding-top:25px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.judul {
+    background-color: lightblue;
+    background-blend-mode: color;
+}
+
+.rekomandsikampus{
+    size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.col-sm-9{
+    display: flex;
+}

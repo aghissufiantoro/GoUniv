@@ -1,0 +1,39 @@
+.navbar {
+    background-color: blue;
+    color: white;
+}
+
+.navbar-nav {
+    padding-right: 0%;
+    padding-left: inherit;
+    align-items: center;
+    justify-items: end;
+}
+
+.nav-link {
+    font-size: large;
+}
+
+.Login {
+    background-color: green;
+    display: table-column-group;
+}
+
+.videotron {
+    background-image: url(Image/Background.png);
+    background-blend-mode: darken 23;
+}
+
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+video{
+    width: 1080;
+    height: 720;
+    background-image: url(image/Background.png);
+    padding-top: 15px;
+}
